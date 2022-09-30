@@ -189,10 +189,14 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     public void confirmarSimulacion(View view){
+        float capital;
+        capital = Float.parseFloat(editTextCapital.getText().toString());
         Intent intent = new Intent( Main2Activity.this, MainActivity.class );
         intent.putExtra("confirmacion_nombre_persona", nombre_persona);
         intent.putExtra("confirmacion_apellido_persona", apellido_persona);
         intent.putExtra("confirmacion_currency", currency_value);
+        intent.putExtra("dias", dias);
+        intent.putExtra("capital_a_invertir", capital);
         startActivity(intent);
     }
 

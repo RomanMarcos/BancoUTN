@@ -26,7 +26,9 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Banco UTN Santa Fe" />
+            android:text="Banco UTN Santa Fe"
+            android:textColor="#000000"
+            android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -44,7 +46,9 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tasa Nominal Anual" />
+                android:text="Tasa Nominal Anual"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/editTasaNominalAnual"
@@ -65,7 +69,9 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tasa Efectiva Anual" />
+                android:text="Tasa Efectiva Anual"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/editTasaEfectivaAnual"
@@ -87,7 +93,9 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Capital a invertir ($)" />
+                android:text="Capital a invertir ($)"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/editTextCapital_invertir"
@@ -117,7 +125,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="30 dias" />
+                android:text="30 dias"
+                android:textColor="#000000" />
 
             <CheckBox
                 android:id="@+id/checkBox"
@@ -140,35 +149,45 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Simulador Plazo Fijo en PESOS" />
+                android:text="Simulador Plazo Fijo en PESOS"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textViewCapital_invertir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Capital:" />
+                android:text="Capital:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/interesesGanados"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Intereses ganados:" />
+                android:text="Intereses ganados:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/montoTotal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Monto total:" />
+                android:text="Monto total:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/montoTotalAnual"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Monto total anual:" />
+                android:text="Monto total anual:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
