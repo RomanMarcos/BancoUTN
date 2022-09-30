@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Banco UTN Santa Fe</string>
+    <string name="constituir_plazo_fijo">Constituir Plazo Fijo</string>
+    <string name="simular_plazo_fijo">Simular Plazo Fijo</string>
+    <string-array name="monedas">
+        <item>PESOS</item>
+        <item>DOLAR</item>
+        <item>EURO</item>
+    </string-array>
 </resources>
